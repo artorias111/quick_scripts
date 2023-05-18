@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-#python script to take a tsebra output, and return the length of intergenic sequences (with coordinates and scaffold names)
+#Author : Shriram Bhat 
+#email : alekhshriram@gmail.com
+#python script to take a gtf output (ex from an annotation pipeline such as BRAKER or TSEBRA), and return the length of intergenic sequences (with coordinates and scaffold names)
 #input : a gtf file, from a tsebra output
 
 #output : a tsv file with `scaffold_name\tstart\tend\tlength\tprevious_gene\tnext_gene

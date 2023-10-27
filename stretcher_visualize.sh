@@ -1,5 +1,5 @@
 #!/bin/bash
-#visualize emboss stretcher output on a smaller scale
+#visualize emboss stretcher output on a smaller scale (also works with needle output
 # match (stacked based on match length input) : | ; gap (stacked based on gap length input) : _
 #usage : ./stretcher_visualizer.sh <filename.stretcher>[[necessary]] <match length>[[optional, default 9]] <gap length>[[optional, default 3]]
 

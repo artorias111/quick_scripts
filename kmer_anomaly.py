@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# Python script to work out weird k-mer plots as seen in gadid assemblies
+# Python script to work out weird k-mer plots
 # input : Raw reads in fastq (UNCOMPRESSED -sorry, Sloppy coding), peak threshold as seen in k-mer coverage plot, and k-mer size (path, int, int)
 # output : fastq in stdout containing reads consisting of high frequency (erroneous?) kmers. Pipe to gzip to compress
 

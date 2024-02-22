@@ -47,7 +47,6 @@ def kmerize(seq,k):
 
 
 if __name__=="__main__":
-    print("script check")
     #argparse stuff
     parser=argparse.ArgumentParser()
     parser.add_argument('--reads','-r',type=str,required=True)
